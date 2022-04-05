@@ -7,7 +7,7 @@ const Footer = (props) => (
           <div className="footer-sub-content" >
             <div className="subscribe-col-wrap">
             <a href="/subscribe">
-            <button class="glow-on-hover" type="button" style={{fontSize: '2rem', padding: '20px'}}>Become a TCC Member Today!</button>
+            <button class="glow-on-hover" type="button" style={{fontSize: '2rem', padding: '20px'}}>Join The TCC Mailing List Today!</button>
             </a>
             </div>
           </div>
