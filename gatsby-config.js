@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: `https://staging.climbthacher.org/graphql`,
+        url: `http://backend.climbthatcher.org/graphql`,
         protocol: `http`,
         hostingWPCOM: false,
         useACF: true,
