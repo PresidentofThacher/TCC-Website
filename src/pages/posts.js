@@ -8,7 +8,7 @@ import Shirt from '../images/TCCtshirt.png'
 
 import { BiWorld, BiGroup, BiCar } from "react-icons/bi";
 import { GrGroup, GrCar } from "react-icons/gr";
-import BannerPic from '../images/placeholder2.jpg'
+import BannerPic from '../images/Climber.jpg'
 
 
 
@@ -17,7 +17,7 @@ export default function Posts({ data }) {
     <PageLayout>
       <SEO title="posts" />
       <div className="page-banner">
-        <img alt="banner-pic" src="https://backend.climbthatcher.org/wp-content/uploads/2018/10/20171007-BWP_5101-2.jpg"/>
+        <img alt="Mountain Climber" src={{BannerPic}}/>
         <div className="page-banner-title">TCC Posts</div>
       </div>
        

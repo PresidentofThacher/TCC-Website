@@ -1,11 +1,11 @@
 import * as React from "react"
-import IMG1 from '../images/placeholder1.jpg'
+import IMG1 from '../images/Climber.jpg'
 import IMG2 from '../images/placeholder2.jpg'
 
 const Slider = ({ siteTitle }) => (
   <div className="slider-wrapper" >
     <div className="slider-img-container slider-left">
-        <img src={IMG1} alt="dsakj" />
+        <img src={IMG1} alt="Mountain Climber" />
     </div>
     <div className="slider-mid-container" >
         <div className="slider-header-wrapper"><h3>Thacher Climbing Coalition</h3></div>

@@ -2,7 +2,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from "../components/seo"
-import BannerPic from '../images/placeholder2.jpg'
+import BannerPic from '../images/Climber.jpg'
 import "../templates/page.css"
 import MerchandiseContent from "../components/MerchandiseContent"
 import PostsContent from "../components/PostsContent"
@@ -12,7 +12,7 @@ const PageTemplate = (props)  => (
       <SEO title={props.pageContext.title}
           description={props.pageContext.excerpt} />
       <div className="page-banner">
-        <img alt="banner-pic" src="https://backend.climbthatcher.org/wp-content/uploads/2018/10/20171007-BWP_5101-2.jpg"/>
+        <img alt="Mountain Climber" src={{BannerPic}}/>
         <div className="page-banner-title">{props.pageContext.title}</div>
       </div>
       <div className="wp-page-wrapper" 
