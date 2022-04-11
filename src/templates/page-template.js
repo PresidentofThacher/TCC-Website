@@ -12,7 +12,7 @@ const PageTemplate = (props)  => (
       <SEO title={props.pageContext.title}
           description={props.pageContext.excerpt} />
       <div className="page-banner">
-        <img alt="Mountain Climber" src={{BannerPic}}/>
+        <img alt="Mountain Climber" src="http://backend.climbthatcher.org/wp-content/uploads/2017/10/cropped-Screen-Shot-2017-10-13-at-1.04.48-PM.png"/>
         <div className="page-banner-title">{props.pageContext.title}</div>
       </div>
       <div className="wp-page-wrapper" 
