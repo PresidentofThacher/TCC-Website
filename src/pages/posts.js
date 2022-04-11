@@ -17,7 +17,7 @@ export default function Posts({ data }) {
     <PageLayout>
       <SEO title="posts" />
       <div className="page-banner">
-        <img alt="Mountain Climber" src="http://backend.climbthatcher.org/wp-content/uploads/2017/10/cropped-Screen-Shot-2017-10-13-at-1.04.48-PM.png"/>
+        <img alt="Mountain Climber" src="https://backend.climbthatcher.org/wp-content/uploads/2018/10/20171007-BWP_5101-2.jpg"/>
         <div className="page-banner-title">TCC Posts</div>
       </div>
        
