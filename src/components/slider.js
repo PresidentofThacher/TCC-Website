@@ -1,11 +1,11 @@
 import * as React from "react"
-import IMG1 from '../images/Climber.jpg'
+import IMG1 from '../images/placeholder1.jpg'
 import IMG2 from '../images/placeholder2.jpg'
 
 const Slider = ({ siteTitle }) => (
   <div className="slider-wrapper" >
     <div className="slider-img-container slider-left">
-        <img src={IMG1} alt="Mountain Climber" />
+        <img src={IMG1} alt="Left Header Photo" />
     </div>
     <div className="slider-mid-container" >
         <div className="slider-header-wrapper"><h3>Thacher Climbing Coalition</h3></div>
@@ -18,7 +18,7 @@ const Slider = ({ siteTitle }) => (
         <div className="slider-footer-wrapper">  <a href="/subscribe"><button>Join the TCC </button></a></div>
     </div>
     <div className="slider-img-container slider-right" >
-        <img src="https://backend.climbthatcher.org/wp-content/uploads/2018/10/20171007-BWP_5101-2.jpg" alt="dsajk" />
+        <img src="https://staging.climbthacher.org/wp-content/uploads/2018/10/20171007-BWP_5101-2.jpg" alt="Right Header Photo" />
     </div>
     
 
