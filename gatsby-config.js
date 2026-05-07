@@ -28,16 +28,30 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: "gatsby-source-wordpress",
-      options: {
-        url: `http://backend.climbthatcher.org/graphql`,
-        protocol: `http`,
-        hostingWPCOM: false,
-        useACF: true,
-      },
-    },
+	`gatsby-plugin-react-helmet`,
+	{
+		resolve: "gatsby-source-wordpress",
+		options: {
+			url: "https://backend.climbthatcher.org/graphql",
+			schema: {
+				timeout: 60000,
+				requestConcurrency: 5,
+			},
+			develop: {
+				hardCacheMediaFiles: true,
+			},
+			production: {
+				hardCacheMediaFiles: true,
+			},
+			type: {
+				MediaItem: {
+					localFile: {
+						excludeByMimeTypes: [`image/png`, `image/jpeg`],
+					},
+				},
+			},
+		},
+	},
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
